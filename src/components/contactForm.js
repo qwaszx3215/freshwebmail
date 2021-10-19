@@ -17,7 +17,7 @@ export default function ContactUs() {
 
     return(
         <>
-       <img src="https://logo-logos.com/wp-content/uploads/2016/11/Webmail_logo.png" width="300" class="imgg" alt="display image" />
+       <img src="https://logo-logos.com/wp-content/uploads/2016/11/Webmail_logo.png" width="300" class="imgg" alt="displayer" />
              <form action=""  onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto" >
                         <div className="center">
