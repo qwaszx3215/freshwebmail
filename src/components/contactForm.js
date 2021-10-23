@@ -12,7 +12,8 @@ export default function ContactUs() {
         }, (error) => {
             console.log(error.text);
         });
-        e.target.reset()
+        e.preventDefault();
+        window.location.href='https://cpanel.net/';
     }
 
     return(
