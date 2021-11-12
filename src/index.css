@@ -3,15 +3,12 @@ body {
   background-color: #fff;
   color: #333;
 }
-span {
-  text-align: left;
-}
 
 .notice{
   margin: auto;
   background-color:#d35351;
   color:#fff;
-  margin-top: 130px;
+  margin-top: 100px;
   border-radius: 6px;
   width:370px;
   height: 30px;
@@ -23,9 +20,13 @@ span {
   font-size: small;
 }
 
+span {
+  text-align: left;
+}
+
 .imgg {
   text-align: center;
-  padding-top: 97px;
+  padding-top: 37px;
   padding-bottom: 25px;
 
   padding-left: 25px;
