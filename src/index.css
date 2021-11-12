@@ -7,6 +7,22 @@ span {
   text-align: left;
 }
 
+.notice{
+  margin: auto;
+  background-color:#d35351;
+  color:#fff;
+  margin-top: 130px;
+  border-radius: 6px;
+  width:370px;
+  height: 30px;
+  padding-top: 8px;
+  padding-bottom: 14px;
+}
+
+.notic{
+  font-size: small;
+}
+
 .imgg {
   text-align: center;
   padding-top: 97px;
