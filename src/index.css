@@ -8,16 +8,19 @@ body {
   margin: auto;
   background-color:#d35351;
   color:#fff;
-  margin-top: 100px;
+  margin-top: 90px;
   border-radius: 6px;
   width:370px;
   height: 30px;
-  padding-top: 8px;
-  padding-bottom: 14px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 .notic{
   font-size: small;
+  color:rgb(238, 227, 227);
+  font-weight: 100;
+  padding-right: 20px;
 }
 
 span {
@@ -30,6 +33,12 @@ span {
   padding-bottom: 25px;
 
   padding-left: 25px;
+}
+.imggg {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 90px;
+ 
 }
 .newer {
   text-align: center;
@@ -72,6 +81,7 @@ input[type="submit"] {
   color: rgb(110, 110, 110);
   font-size: 15px;
   font-weight: bold;
+  
 }
 .snter {
   position: relative;
@@ -94,6 +104,12 @@ input[type="submit"] {
   text-align: center;
   text-decoration: none;
   margin-top: 90px;
+}
+.lan {
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 10px;
 }
 ul li {
   display: inline;
