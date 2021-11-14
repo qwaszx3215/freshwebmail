@@ -21,7 +21,7 @@ export default function ContactUs() {
 	       <div className="notice" >
         
             <div className="notic"> <i class="fas fa-times-circle fa-2x" style={{marginRight:'12px'}}></i>Your session cookie is invalid. Please log in again.</div>
-                
+                </div>
        <img src="https://logo-logos.com/wp-content/uploads/2016/11/Webmail_logo.png" width="300" class="imgg" alt="displayer" />
              <form action=""  onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto" >
